@@ -15,7 +15,7 @@ export class CalculadoraPadreComponent {
   operacion: string = '';
   resultado!: number
 
-  calcular(operacion:string):void {
+  setOperacion(operacion:string):void {
     this.operacion = operacion
   }
 
